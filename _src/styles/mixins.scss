@@ -12,10 +12,10 @@
 
 @mixin container {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1170px;
     margin: 0 auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
     
 
     @media (min-width: $xl-width) {

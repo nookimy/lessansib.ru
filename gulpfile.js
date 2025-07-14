@@ -145,6 +145,7 @@ function clean() {
 function reset() {
   return del(basePath.dev)
 }
+
 // Тестовая задача по копированию
 function copy() {
   return gulp.src(paths.files.src)

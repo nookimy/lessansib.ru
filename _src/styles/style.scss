@@ -1,10 +1,11 @@
 @import "./variables";
-// @import "./mixins";
+@import "./mixins";
 // @import "./fonts";
 // @import "./scaffolding";
 // @import "../blocks/icons/icons";
-// @import "../blocks/btn/btn";
+@import "../blocks/button/button";
 // @import "../blocks/modal/modal";
 // @import "../blocks/section/section";
 @import "../blocks/section/style";
 @import "../blocks/catalog/catalog";
+@import "../blocks/cookie-notice/cookie-notice";

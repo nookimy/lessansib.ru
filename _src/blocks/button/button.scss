@@ -1,0 +1,14 @@
+.button {
+    @include button-reset();
+    font-size: 15px;
+    line-height: 1.25;
+    font-style: normal;
+    font-weight: 300;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

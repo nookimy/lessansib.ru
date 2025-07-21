@@ -23,5 +23,13 @@
         position: fixed;
         bottom: 20px;
         right: 20px;
+        left: 20px;
+        background-color: #5eaf60;
+        color: #fff;
+
+        @media screen and (min-width: 768px) {
+            left: unset;
+            right: 90px;
+        }
     }
 }

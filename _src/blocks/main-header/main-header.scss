@@ -1,0 +1,53 @@
+.main-header {
+    &__link--phone {
+        
+
+    }
+}
+
+.page--inner {
+    & .main-header {
+        &__link--phone {
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            background-color: #5eaf60;
+            font-weight: 700;
+            color: #fff;
+            font-weight: 600;
+            line-height: 0;
+            max-height: 300px;
+            border: 1px solid #5eaf60;
+
+            & svg {
+                width: 20px;
+                height: 20px;
+                fill: #fff;
+            }
+
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: #fff;
+                color: #5eaf60;
+                fill: #fff;
+            }
+        }
+    }
+}
+
+.page--inner .main-nav__second-list > li > a {
+    color: #5eaf60;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.page--inner .main-nav__second-list > li:before {
+    background-color: #5eaf60;
+}
+
+.catalog__categories-list--action {
+    & .catalog__categories-item-text-wrap {
+        position: static;
+    }
+}
